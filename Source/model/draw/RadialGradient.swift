@@ -1,3 +1,9 @@
+import Foundation
+
+#if os(iOS) || os(tvOS)
+    import UIKit
+#endif
+
 open class RadialGradient: Gradient {
 
     open let cx: Double

@@ -4,7 +4,7 @@ import Foundation
 import AppKit
 #endif
 
-#if os(iOS)
+#if os(iOS) || os(tvOS)
 import UIKit
 #endif
 
@@ -63,13 +63,13 @@ class ImageRenderer: NodeRenderer {
         guard let image = image else {
             return .none
         }
-
-        #if os(iOS)
+        
+        #if os(iOS) || os(tvOS)
         let osImage = MImage(named: image.src)
         #elseif os(OSX)
         let osImage = MImage(named: NSImage.Name(rawValue: image.src))
         #endif
-
+        
         if let mImage = osImage {
             let rect = getRect(mImage)
             if rect.contains(location) {

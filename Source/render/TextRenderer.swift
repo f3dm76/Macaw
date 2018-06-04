@@ -1,6 +1,6 @@
 import Foundation
 
-#if os(iOS)
+#if os(iOS) || os(tvOS)
 import UIKit
 #elseif os(OSX)
 import AppKit
@@ -144,16 +144,16 @@ class TextRenderer: NodeRenderer {
         let textSize = NSString(string: text.text).size(withAttributes: textAttributes)
         return -CGFloat(text.align.align(size: textSize.width.doubleValue))
     }
-
+    
     fileprivate func getTextColor(_ fill: Fill) -> MColor {
         if let color = fill as? Color {
-
-            #if os(iOS)
+            
+            #if os(iOS) || os(tvOS)
             return MColor(cgColor: color.toCG())
             #elseif os(OSX)
             return MColor(cgColor: color.toCG()) ?? .black
             #endif
-
+            
         }
         return MColor.black
     }
