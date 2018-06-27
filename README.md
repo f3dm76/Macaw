@@ -27,6 +27,7 @@ pod "Macaw", "0.9.1"
 ```ogdl
 github "Exyte/Macaw" ~> 0.9.1
 ```
+For more details refer to [Getting Started Tutorial] (https://github.com/exyte/Macaw/wiki/Getting-started)
 
 ### To build from sources
 * clone the repo `git@github.com:exyte/Macaw.git`
