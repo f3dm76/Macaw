@@ -1,11 +1,11 @@
-# Macaw 
-Macaw is an easy-to-use iOS library for vector graphics and animation. 
-
-[![CI Status](https://travis-ci.org/exyte/Macaw.svg?style=flat)](https://travis-ci.org/exyte/Macaw)
+# Macaw [![CI Status](https://travis-ci.org/exyte/Macaw.svg?style=flat)](https://travis-ci.org/exyte/Macaw)
 [![Version](https://img.shields.io/cocoapods/v/Macaw.svg?style=flat)](http://cocoapods.org/pods/Macaw)
 [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-0473B3.svg?style=flat)](https://github.com/Carthage/Carthage)
 [![License](https://img.shields.io/cocoapods/l/Macaw.svg?style=flat)](http://cocoapods.org/pods/Macaw)
 [![Platform](https://img.shields.io/cocoapods/p/Macaw.svg?style=flat)](http://cocoapods.org/pods/Macaw)
+Macaw is an easy-to-use iOS library for vector graphics and animation. 
+
+
 
 <img src="http://i.imgur.com/rQIh3qD.gif" height="280"> <img src="http://i.imgur.com/bIgHtzt.gif" height="280"> <img src="http://i.imgur.com/NiBT2rv.gif" height="280"> <img src="http://i.imgur.com/Un8TJKc.gif" height="280">
 
@@ -79,10 +79,6 @@ Affine transformations, user events, animation and various effects to build beau
 * [Content animation](https://github.com/exyte/Macaw/wiki/Content-animation)
 * [Morphing animation](https://github.com/exyte/Macaw/wiki/Morphing-animation)
 * [Change Log](https://github.com/exyte/Macaw/wiki/Change-Log)
-
-#### License
-
-Macaw is available under the MIT license. See the LICENSE file for more info.
 
 
 #### Posts
