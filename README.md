@@ -28,9 +28,7 @@ pod "Macaw", "0.9.1"
 github "Exyte/Macaw" ~> 0.9.1
 ```
 
-### Building from sources
-
-To build Macaw from sources:
+### To build from sources
 * clone the repo `git@github.com:exyte/Macaw.git`
 * open terminal and run `cd <MacawRepo>/Example/`
 * run `pod install` to install all dependencies
