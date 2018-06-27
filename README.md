@@ -87,7 +87,7 @@ This project is maintained by [exyte](http://www.exyte.com). We design and build
 
 ### Motivation
 
-Modern designs contain tons of illustrations and complex animations. Mobile developers have to spend a lot of time on converting designs into native views that will be resizable for different screens. With Macaw you can reduce development time to a minimum and describe all graphics in high level [scene](https://en.wikipedia.org/wiki/Scene_graph) elements. Or even render SVG graphics right from your design tool with Macaw events and animation support.
+Modern designs contain tons of illustrations and complex animations. We had to spend a lot of time on converting designs into native views that will be resizable for different screens until we had enough and created Macaw. It helps to reduce development time to a minimum and describe all graphics in high level [scene](https://en.wikipedia.org/wiki/Scene_graph) elements or even render SVG graphics right from your design tool with Macaw events and animation support.
 
 We truly appreciate your feedback and use cases. Please share your story or opinion at info@exyte.com.
 
