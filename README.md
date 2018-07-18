@@ -5,6 +5,16 @@ Macaw is an easy-to-use iOS library for vector graphics and animation.
 
 <img src="http://i.imgur.com/rQIh3qD.gif" height="280"> <img src="http://i.imgur.com/bIgHtzt.gif" height="280"> <img src="http://i.imgur.com/NiBT2rv.gif" height="280"> <img src="http://i.imgur.com/Un8TJKc.gif" height="280">
 
+## Features
+
+Include Scalable Vector Graphics right into your iOS application:
+
+<img src="http://i.imgur.com/NWkEzcu.png" width="300">
+
+Affine transformations, user events, animation and various effects to build beautiful apps with Macaw:
+
+<img src="http://i.imgur.com/pjmxrDI.gif" width="600">	
+
 ## Usage
 
 ### Requirements
@@ -50,16 +60,6 @@ class MyView: MacawView {
 
 <img src="http://i.imgur.com/ffPc4mr.png" width="475">
 
-
-## Additional features
-
-Include Scalable Vector Graphics right into your iOS application:
-
-<img src="http://i.imgur.com/NWkEzcu.png" width="300">
-
-Affine transformations, user events, animation and various effects to build beautiful apps with Macaw:
-
-<img src="http://i.imgur.com/pjmxrDI.gif" width="600">
 
 #### Examples
 
