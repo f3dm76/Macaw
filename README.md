@@ -7,11 +7,13 @@ Macaw is an easy-to-use iOS library for vector graphics and animation.
 
 ## Features
 
-Include Scalable Vector Graphics right into your iOS application:
+Scalable Vector Graphics rendering *picture+script* 
 
 <img src="http://i.imgur.com/NWkEzcu.png" width="300">
 
-Affine transformations, user events, animation and various effects to build beautiful apps with Macaw:
+Affine transformations *picture* 
+User events *picture* 
+Animation *picture* 
 
 <img src="http://i.imgur.com/pjmxrDI.gif" width="600">	
 
