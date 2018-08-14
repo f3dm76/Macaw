@@ -27,18 +27,12 @@ These instructions will get you a copy of the project up and running on your loc
 
 #### [with CocoaPods](http://cocoapods.org)
 
-Add the following line to your Podfile:
-```ruby
-pod "Macaw", "0.9.1"
-```
+Add the following line to your Podfile: `pod "Macaw", "0.9.1" `
 
 #### [with Carthage](http://github.com/Carthage/Carthage)
 
-Add the following dependency to the Cartfile
+Add the following dependency to the Cartfile: `github "Exyte/Macaw" ~> 0.9.1`
 
-```ogdl
-github "Exyte/Macaw" ~> 0.9.1
-```
 For more details refer to [Getting Started Tutorial](https://github.com/exyte/Macaw/wiki/Getting-started)
 
 Example:
@@ -54,7 +48,7 @@ class MyView: MacawView {
 }
 ```
 
-<img src="http://i.imgur.com/ffPc4mr.png" width="475">
+<img src="http://i.imgur.com/ffPc4mr.png" width="475" align="middle">
 
 #### Build from sources
 * clone the repo `git@github.com:exyte/Macaw.git`
