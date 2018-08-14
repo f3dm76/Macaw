@@ -39,9 +39,9 @@ Add the following dependency to the Cartfile
 ```ogdl
 github "Exyte/Macaw" ~> 0.9.1
 ```
-For more details refer to [Getting Started Tutorial] (https://github.com/exyte/Macaw/wiki/Getting-started)
+For more details refer to [Getting Started Tutorial](https://github.com/exyte/Macaw/wiki/Getting-started)
 
-Get started with Macaw in several lines of code:
+Example:
 
 ```swift
 class MyView: MacawView {
