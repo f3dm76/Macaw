@@ -7,19 +7,11 @@ Macaw is an open source programming library that provides API for software devel
 ### Key Features
 
 * SVG rendering
-* Powerful building blocks buttons, charts, lists, sliders, images etc
-Advanced graphics with animations, anti-aliasing, opacity, smooth scrolling
-Various input devices touch pad, mouse, keyboard, encoder, buttons etc
-Multi language support with UTF-8 decoding
-Fully customizable graphical elements
-Hardware independent to use with any microcontroller or display
-Scalable to operate with few memory (50 kB Flash, 10 kB RAM)
-OS, External memory and GPU supported but not required
-Single frame buffer operation even with advances graphical effects
-Written in C for maximal compatibility
-Simulator to develop on PC without embedded hardware
-Tutorials, examples, themes for rapid development
-Documentation and API references online
+* scene serialization and scene deserialization into an SVG or Macaw file
+* scene may include multiple responsive objects
+* creating shapes in CGGraphicContext in a reasonably easy way
+* friendly interface for CAAnimation 
+* Macaw carefully handles changes in public API, which insures compiling even of a very old code you'd written with Macaw
 
 ## Getting Started
 
