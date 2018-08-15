@@ -2,7 +2,7 @@
 
 [![CI Status](https://travis-ci.org/exyte/Macaw.svg?style=flat)](https://travis-ci.org/exyte/Macaw) [![Version](https://img.shields.io/cocoapods/v/Macaw.svg?style=flat)](http://cocoapods.org/pods/Macaw) [![Carthage Compatible](https://img.shields.io/badge/Carthage-compatible-0473B3.svg?style=flat)](https://github.com/Carthage/Carthage) [![License](https://img.shields.io/cocoapods/l/Macaw.svg?style=flat)](http://cocoapods.org/pods/Macaw) [![Platform](https://img.shields.io/cocoapods/p/Macaw.svg?style=flat)](http://cocoapods.org/pods/Macaw)
 
-Macaw provides primitives, visual effects, and animations for two-dimensional drawing across macOS, iOS, watchOS, and tvOS.  It allows you to convert designs into scalable native views, fitting different screens. It is also open source (surprise-surprise) and regulary updated.
+Macaw provides primitives, visual effects, and animations for two-dimensional drawing across macOS, iOS, _watchOS, and tvOS_.  It allows you to convert designs into scalable native views, fitting different screens. It is also open source (surprise-surprise) and regularly updated.
 
 ### Key Features
 
@@ -27,25 +27,27 @@ These instructions will get you a copy of the project up and running on your loc
 
 #### [with CocoaPods](http://cocoapods.org)
 
-Add the following line to your Podfile: `pod "Macaw", "0.9.1" `
+Add the following line to your Podfile: `pod "Macaw", "0.9.2" `
 
 #### [with Carthage](http://github.com/Carthage/Carthage)
 
-Add the following dependency to the Cartfile: `github "Exyte/Macaw" ~> 0.9.1`
+Add the following dependency to the Cartfile: `github "Exyte/Macaw" ~> 0.9.2`
 
 For more details refer to [Getting Started Tutorial](https://github.com/exyte/Macaw/wiki/Getting-started)
 
 Example:
 
 ```swift
-class MyView: MacawView {
-
-	required init?(coder aDecoder: NSCoder) {
-		let text = Text(text: "Hello, World!", place: .move(dx: 145, dy: 100))
-		super.init(node: text, coder: aDecoder)
-	}
-
-}
+clalet rect = Shape(
+            form: RoundRect(rect: Rect(w: 60, h: 60), rx: 5, ry: 5),
+            fill: Color(val: 0xCED4E4),
+            place: .move(dx: 30, dy: 150)
+        )
+        
+        rect.placeVar.animation(to: .move(dx: distance + rect.place.dx, dy: rect.place.dy), during: 0.5).autoreversed().cycle().play()
+        
+let group = Group(contents: [circle, rect])
+super.init(node: group, coder: aDecoder)
 ```
 
 <img src="http://i.imgur.com/ffPc4mr.png" width="475" align="middle">
@@ -70,5 +72,5 @@ We truly appreciate your feedback and use cases. Please share your story or opin
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ### Areas for Improvements / involvement
-* XXX
-* XXX
+* tvOS, watchOS support
+* SVG parcing
